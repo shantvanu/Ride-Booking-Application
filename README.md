@@ -1,7 +1,19 @@
-# Ride Booking Application
+# Ride Booking Application - A full-stack ride booking application inspired by Ola, featuring user & driver authentication, ride booking, fare calculation, and payment flow.
+
+## 🔗 Live Demo
+
+- **Frontend (Netlify):**  
+  👉 https://jocular-smakager-18d001.netlify.app
+
+- **Backend API (Render):**  
+  👉 https://ride-booking-application-1.onrender.com
+
+> ⚠️ Note: Backend is hosted on Render free tier and may take 30–60 seconds to respond on first request.
 
 ## 📌 Project Overview
 This is a full-stack ride-booking web application designed to simulate core functionalities of services like Ola or Uber. The application features a comprehensive booking flow, real-time-like status updates, driver and user dashboards, and a robust authentication system. It is built with a focus on modular architecture, clean code practices, and production-readiness.
+
+---
 
 ## 🛠 Tech Stack
 
