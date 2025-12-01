@@ -10,7 +10,7 @@ const PaymentPage: React.FC = () => {
 
     console.log('[PAYMENT] Component mounted');
     console.log('[PAYMENT] Booking ID:', bookingId);
-    console.log('[PAYMENT] Amount:', amount);
+
 
     const [selectedMethod, setSelectedMethod] = useState<string>('cash');
     const [upiId, setUpiId] = useState('');
@@ -192,8 +192,8 @@ const PaymentPage: React.FC = () => {
                                     console.log('[PAYMENT] Payment method selected:', method.id);
                                 }}
                                 className={`w-full p-5 rounded-xl border-2 transition-all text-left ${selectedMethod === method.id
-                                        ? 'border-accent bg-accent/10'
-                                        : 'border-gray-700 bg-primary hover:border-gray-600'
+                                    ? 'border-accent bg-accent/10'
+                                    : 'border-gray-700 bg-primary hover:border-gray-600'
                                     }`}
                             >
                                 <div className="flex items-center gap-4">
