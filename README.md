@@ -47,7 +47,7 @@ Create a `.env` file in the `backend` directory (see `.env.example` if available
 ```env
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/rideApp
-JWT_SECRET=your_super_secret_key_123
+JWT_SECRET=your_jwt_secret_key
 ```
 Start the backend server:
 ```bash
@@ -74,4 +74,4 @@ npm run dev
 - **UX/UI**: The interface is designed to be intuitive and responsive, mimicking real-world ride-booking apps.
 
 ---
-*Developed by [Your Name]*
+*Developed by Shantvanu Mutha*
